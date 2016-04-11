@@ -102,6 +102,8 @@ Finally startup a local rails server
 
     bundle exec rails server
 
+And visit the website in your browser: http://0.0.0.0:3000
+
 ## Testing
 
 Make sure to have data in your test environment by running:
@@ -123,8 +125,6 @@ To run specific lines of a test file, do:
 ```
 $ bundle exec rspec spec/path/to/your/file:number
 ```
-
-And visit the website in your browser: http://0.0.0.0:3000
 
 ## License
 
