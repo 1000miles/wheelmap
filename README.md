@@ -105,16 +105,24 @@ Finally startup a local rails server
 ## Testing
 
 Make sure to have data in your test environment by running:
-`bundle exec rake db:create:all db:migrate db:seed RAILS_ENV=test`
+```
+$ bundle exec rake db:create:all db:migrate db:seed RAILS_ENV=test
+```
 
 To run all tests of the app, do:
-`bundle exec rake spec`
+```
+$ bundle exec rake spec
+```
 
 To run only single tests, do:
-`bundle exec rspec spec/path/to/your/file`
+```
+$ bundle exec rspec spec/path/to/your/file
+```
 
 To run specific lines of a test file, do:
-`bundle exec rspec spec/path/to/your/file:number`
+```
+$ bundle exec rspec spec/path/to/your/file:number
+```
 
 And visit the website in your browser: http://0.0.0.0:3000
 
